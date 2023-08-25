@@ -1,4 +1,3 @@
-
 local keymap = vim.keymap
 
 -- LOCAL FUNCTIONS
@@ -17,6 +16,8 @@ keymap.set('n', '<C-J>', '<C-W>j')
 keymap.set('n', '<C-K>', '<C-W>k')
 keymap.set('n', '<C-L>', '<C-W>l')
 keymap.set('n', '<C-H>', '<C-W>h')
+keymap.set('n', 'x', '"_x')
+keymap.set('n', 'x', '"_x')
 
 -- TELESCOPE
 local builtin = require('telescope.builtin')
@@ -27,5 +28,4 @@ keymap.set('n', '<leader>fh', builtin.help_tags, {})
 keymap.set('n', '<leader>fm', builtin.marks, {})
 keymap.set('n', '<leader>fch', builtin.command_history, {})
 keymap.set('n', '<leader>frg', builtin.registers, {})
-
 

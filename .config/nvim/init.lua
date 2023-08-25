@@ -9,14 +9,24 @@ require("lazy").setup("plugins")
 require("keymap")
 
 
-opt.tabstop = 2
-opt.softtabstop = 2
-opt.shiftwidth = 2
+TAB = function(tabwidth)
+    opt.tabstop = tabwidth
+    opt.softtabstop = tabwidth
+    opt.shiftwidth = tabwidth
+end
+
+TAB(4)
+
+opt.expandtab = true
+opt.smartindent = true
+
+opt.clipboard = "unnamedplus"
 
 o.number = true
 o.relativenumber = true
 o.ignorecase = true
+o.smartcase = true
+o.mouse = "a"
 
 o.autoread = true
 o.autowrite = true
-
