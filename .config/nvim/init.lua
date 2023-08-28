@@ -7,6 +7,8 @@ vim.g.mapleader = " "
 require("bootstrap")
 require("lazy").setup("plugins")
 require("keymap")
+require("cp")
+
 
 
 TAB = function(tabwidth)
@@ -30,3 +32,6 @@ o.mouse = "a"
 
 o.autoread = true
 o.autowrite = true
+
+o.splitright = true
+o.splitbelow = true
