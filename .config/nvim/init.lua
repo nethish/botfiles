@@ -8,6 +8,7 @@ require("bootstrap")
 require("lazy").setup("plugins")
 require("keymap")
 require("cp")
+require("lsp")
 
 
 

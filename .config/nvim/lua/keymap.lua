@@ -29,3 +29,5 @@ keymap.set('n', '<leader>fm', builtin.marks, {})
 keymap.set('n', '<leader>fch', builtin.command_history, {})
 keymap.set('n', '<leader>frg', builtin.registers, {})
 
+-- UNDOTREE
+keymap.set('n', '<leader>u', vim.cmd.UndotreeToggle)
