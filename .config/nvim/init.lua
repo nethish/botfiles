@@ -36,3 +36,42 @@ o.autowrite = true
 
 o.splitright = true
 o.splitbelow = true
+
+o.scrolloff = 8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
